@@ -1,0 +1,10 @@
+npm i
+npm run dev
+npm run build
+"run-p dev:*",
+"dev:routify": "routify",
+"dev:vite": "vite",
+"preview": "vite preview",
+"build": "run-s build:*",
+"build:routify": "routify -b",
+"build:vite": "vite build"
